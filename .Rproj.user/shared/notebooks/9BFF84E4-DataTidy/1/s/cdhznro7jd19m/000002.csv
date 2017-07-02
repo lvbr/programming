@@ -1,0 +1,12 @@
+"0","```r
+x2 <- read_csv(\"The first line of metadata
+  The second line of metadata
+         x,y,z
+         1,2,3\", skip = 2)
+
+x3 <-  read_csv(\"# A comment I want to skip
+                x,y,z
+                1,2,3\", comment = \"#\")
+x2
+x3
+```"

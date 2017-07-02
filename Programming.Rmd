@@ -1,0 +1,47 @@
+---
+title: "A"
+output: html_notebook
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Inputs and outputs
+
+input data = the"what" that is manipulated
+parameters determine "how" the manipulation is done
+
+# Example 1 power generation 
+
+the function can use variables that do not interrupt with other variables of your code of somelses' code 
+Anything that is defined whitin the functuion does not exit outside the function 
+
+```{r}
+power_gen = function (height, flow, rho = 1000, g = 9.8, K = 0.8){
+  result = rho * height * flow * g * K
+  return(result)
+}
+```
+
+## Error checking 
+
+The function will work with whaterver your are giving, so is helpful to provide a warmming message to let know the user that he/she is using an inadequate value.
+
+example:
+
+if (height < 0) return (NA) -- In that way the user can be aware 
+
+## Documentation
+
+You have to save the function as a separate file and create documentation 
+
+# Example 2 -- power required to keep a car moving at a given speed
+
+```{r}
+power_car = function (V, mass, g = 9.8, Pair = 1.2, Crolling = 0.015, Cdrag = 0.3){
+  pb =  (Crolling * mass * g * V + (0.5 * Pair * Cdrag * (V^3)))
+  return(pb)
+}
+```
+

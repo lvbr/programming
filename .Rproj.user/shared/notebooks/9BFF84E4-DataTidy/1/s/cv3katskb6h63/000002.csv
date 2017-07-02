@@ -1,0 +1,11 @@
+"0","```r
+challenge2 <- read_csv(
+  readr_example(\"challenge.csv\"), 
+  col_types = cols(
+    x = col_double(),
+    y = col_character()
+  )
+)
+
+tail(challenge2)
+```"

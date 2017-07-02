@@ -1,0 +1,8 @@
+"0","```r
+parse_datetime(\"2010-10-01T2010\")
+guess_parser(\"2010-10-01\")
+guess_parser(\"15:01\")
+guess_parser(c(\"TRUE\", \"FALSE\"))
+guess_parser(c(\"1\", \"5\", \"9\"))
+guess_parser(c(\"12,352,561\"))
+```"

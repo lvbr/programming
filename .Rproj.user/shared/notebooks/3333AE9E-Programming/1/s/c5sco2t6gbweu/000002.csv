@@ -1,0 +1,4 @@
+"0","power_car = function (V, mass, g = 9.8, Pair = 1.2, Crolling = 0.015, Cdrag = 0.3){"
+"0","  pb =  (Crolling * mass * g * V + (0.5 * Pair * Cdrag * (V^3)))"
+"0","  return(pb)"
+"0","}"

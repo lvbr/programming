@@ -1,0 +1,6 @@
+"0","```r
+  tidytable3 <- table3 %>% 
+                separate(rate, into = c(\"cases\", \"population\"))
+
+tidytable3
+```"

@@ -1,0 +1,4 @@
+"0","```r
+parse_character(ca$PRIMARY_LAT_DMS)[1:9]
+ca$PRIMARY_LAT_DMS <- parse_character(ca$PRIMARY_LAT_DMS, na=\"Unknown\")
+```"

@@ -1,0 +1,4 @@
+"0","```r
+y <- stocks %>% 
+     complete(year, qtr)
+```"

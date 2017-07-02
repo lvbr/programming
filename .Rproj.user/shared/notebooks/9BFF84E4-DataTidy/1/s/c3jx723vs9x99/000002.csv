@@ -1,0 +1,4 @@
+"0","```r
+x6 <- str(parse_logical(c(\"TRUE\", \"FALSE\", \"NA\")))
+x6
+```"

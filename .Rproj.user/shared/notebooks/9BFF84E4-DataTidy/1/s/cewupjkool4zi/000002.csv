@@ -1,0 +1,4 @@
+"0","```r
+x7 <- fruit <- c(\"apple\", \"banana\")
+parse_factor(c(\"apple\", \"banana\", \"bananana\"), levels = fruit)
+```"
